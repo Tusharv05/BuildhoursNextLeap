@@ -45,14 +45,16 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 if str(ROOT / "src") not in sys.path:
     sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import streamlit as st
 
-import theme
-from theme import esc, esc_attr, icon
+import theme  # pyrefly: ignore [missing-import]
+from theme import esc, esc_attr, icon  # pyrefly: ignore [missing-import]
 from mf_rag.answer import OFFICIAL_SOURCES
 from mf_rag.config import AppConfig, get_config
 from mf_rag.entities import detect_entity
@@ -227,36 +229,30 @@ def _source_label(url: str | None, answer: Answer) -> tuple[str, bool]:
 
 
 def render_verify_row(stats: dict[str, object]) -> None:
-    """Welcome state: the KNOWLEDGE BASE pill plus a mono sync stamp.
+    """Welcome state: the KNOWLEDGE BASE pill.
 
     `fundfacts_welcome_empty_state`, "Verified Corpus Meta Tag".
     """
-    model = str(stats.get("embedding_model", "")).split("/")[-1]
     st.markdown(
-        '<div class="ff-verify-row">'
+        '<div class="ff-verify-row" style="margin-bottom: 56px !important; padding-bottom: 12px;">'
         '<span class="ff-kb-pill">'
         '<span class="ff-dot ff-pulse"></span>'
         f"KNOWLEDGE BASE: {esc(CORPUS_SCOPE)}</span>"
-        f'<span class="ff-mono" style="color:var(--ff-outline)">{esc(stats.get("count", 0))} '
-        f"chunks &middot; {esc(SYNC_STAMP)} &middot; {esc(model)}</span>"
         "</div>",
         unsafe_allow_html=True,
     )
 
 
 def render_index_row(stats: dict[str, object]) -> None:
-    """Conversation state: a pulsing dot, the index name, and a mono provenance stamp.
+    """Conversation state: a pulsing dot and the index name.
 
     `fundfacts_factual_answer_collapsed_trace`, top meta row.
     """
-    model = str(stats.get("embedding_model", "")).split("/")[-1]
     st.markdown(
         '<div class="ff-index-row">'
         '<span class="ff-index-label">'
         '<span class="ff-dot ff-dot-lg ff-pulse"></span>'
         f"{esc(INDEX_LABEL)}</span>"
-        f'<span class="ff-mono" style="color:var(--ff-secondary)">{esc(stats.get("count", 0))} '
-        f"chunks &middot; {esc(model)}</span>"
         "</div>",
         unsafe_allow_html=True,
     )
@@ -267,7 +263,7 @@ def render_index_row(stats: dict[str, object]) -> None:
 
 def render_welcome() -> None:
     st.markdown(
-        '<div class="ff-brand-row">'
+        '<div class="ff-brand-row" style="margin-top: 20px !important;">'
         f'<span class="ff-brand-tile">{theme.LOGO_SVG}</span>'
         f'<span class="ff-eyebrow">{esc("Statutory Repository Assistant")}</span>'
         "</div>"
@@ -279,14 +275,16 @@ def render_welcome() -> None:
         f'<span class="ff-pill">{icon("check_circle", 14, fill=True)} {esc(name)}</span>'
         for name in SCHEME_LABELS
     )
-    st.markdown(f'<div class="ff-pill-row">{pills}</div>', unsafe_allow_html=True)
+    st.markdown(
+        f'<div class="ff-pill-row" style="margin-bottom: 48px !important;">{pills}</div>',
+        unsafe_allow_html=True,
+    )
 
 
 def render_example_chips() -> None:
     st.markdown(
-        '<div class="ff-suggest-head">'
+        '<div class="ff-suggest-head" style="margin-top: 36px !important; margin-bottom: 20px !important;">'
         f'<span class="ff-suggest-label">{esc("Try one of these queries")}</span>'
-        f'<span class="ff-hint">{esc(SEARCH_HINT)}</span>'
         "</div>",
         unsafe_allow_html=True,
     )
@@ -361,29 +359,6 @@ def render_loading(question: str, cfg: AppConfig) -> None:
         unsafe_allow_html=True,
     )
 
-    stage = LOADING_STAGES[abs(hash(question)) % len(LOADING_STAGES)]
-    st.markdown(
-        '<div class="ff-loading">'
-        '<div class="ff-loading-head">'
-        f'<span class="ff-avatar ff-avatar-lg ff-avatar-fixed">{icon("verified", 18)}</span>'
-        f"{_SPIN_RING}"
-        '<div class="ff-loading-text">'
-        f'<div class="ff-label ff-blink">{esc(stage)}</div>'
-        f'<div class="ff-mono ff-truncate" style="color:var(--ff-secondary)">'
-        f"query {esc(query_hash(question))}</div>"
-        "</div>"
-        f'<span class="ff-load-tag">entity: {esc(kind or "none")}</span>'
-        "</div>"
-        '<div class="ff-loading-panel">'
-        '<div class="ff-loading-label">'
-        f'<span>{icon("manage_search", 15)} <b>Statutory Vector Retrieval</b></span>'
-        '<span class="ff-mono">cosine: &mdash;</span></div>'
-        '<div class="ff-bar"><span></span></div>'
-        '<div class="ff-skeleton w-56"></div>'
-        '<div class="ff-skeleton w-34"></div>'
-        "</div></div>",
-        unsafe_allow_html=True,
-    )
 
     st.markdown(
         '<div class="ff-breadcrumb"><span class="ff-dot"></span>'

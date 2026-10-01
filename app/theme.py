@@ -231,7 +231,7 @@ header[data-testid="stHeader"]:empty { display: none; }
 
 /* ---------- top meta row ---------- */
 /* welcome variant: the KNOWLEDGE BASE pill plus a mono sync stamp */
-.ff-verify-row { display: flex; align-items: center; gap: var(--ff-space-sm); margin-bottom: var(--ff-space-lg); }
+.ff-verify-row { display: flex; align-items: center; gap: var(--ff-space-sm); margin-bottom: 56px !important; }
 .ff-kb-pill {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 4px 12px; border-radius: var(--ff-full);
@@ -252,13 +252,13 @@ header[data-testid="stHeader"]:empty { display: none; }
 /* conversation variant: a pulsing dot, the index name, and a mono provenance stamp */
 .ff-index-row {
   display: flex; align-items: center; justify-content: space-between; gap: var(--ff-space-sm);
-  padding: 0 var(--ff-space-sm); margin-bottom: var(--ff-space-lg);
+  padding: 0 var(--ff-space-sm); margin-bottom: 32px;
   font-size: 12px; line-height: 16px; font-weight: 500; color: var(--ff-on_surface_variant);
 }
 .ff-index-label { display: inline-flex; align-items: center; gap: 6px; color: var(--ff-on_surface); }
 
 /* ---------- welcome block ---------- */
-.ff-brand-row { display: flex; align-items: center; gap: var(--ff-space-sm); margin-bottom: var(--ff-space-sm); }
+.ff-brand-row { display: flex; align-items: center; gap: var(--ff-space-sm); margin-top: 20px !important; margin-bottom: var(--ff-space-sm); }
 .ff-brand-tile {
   width: 36px; height: 36px; border-radius: var(--ff-panel);
   display: flex; align-items: center; justify-content: center;
@@ -271,25 +271,28 @@ header[data-testid="stHeader"]:empty { display: none; }
   letter-spacing: 0.06em; text-transform: uppercase; color: var(--ff-secondary);
 }
 .ff-lede {
-  font-size: 16px; line-height: 26px; color: var(--ff-on_surface);
-  margin: var(--ff-space-md) 0 var(--ff-space-lg) 0; max-width: 42rem;
+  font-size: 16px; line-height: 28px; color: var(--ff-on_surface);
+  margin: var(--ff-space-md) 0 32px 0; max-width: 44rem;
 }
 .ff-lede strong { color: var(--ff-primary); font-weight: 600; }
 
 /* ---------- scheme scope pills ---------- */
-.ff-pill-row { display: flex; flex-wrap: wrap; gap: var(--ff-space-xs); margin-bottom: var(--ff-space-xl); }
+.ff-pill-row {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  margin-top: 4px; margin-bottom: 48px !important;
+}
 .ff-pill {
-  display: inline-flex; align-items: center; gap: 6px;
-  height: 34px; padding: 0 14px; border-radius: var(--ff-full);
+  display: inline-flex; align-items: center; gap: 8px;
+  height: 38px; padding: 0 16px; border-radius: var(--ff-full);
   border: 1px solid var(--ff-border); background: var(--ff-surface);
-  color: var(--ff-secondary); font-size: 12px; line-height: 16px; font-weight: 500;
+  color: var(--ff-secondary); font-size: 13px; line-height: 16px; font-weight: 500;
 }
 .ff-pill .material-symbols-outlined { color: var(--ff-primary); }
 
 /* ---------- suggestion section head ---------- */
 .ff-suggest-head {
   display: flex; align-items: center; justify-content: space-between;
-  gap: var(--ff-space-sm); margin-bottom: var(--ff-space-sm);
+  gap: var(--ff-space-sm); margin-top: 36px !important; margin-bottom: 20px !important;
 }
 .ff-suggest-label {
   font-size: 12px; line-height: 16px; font-weight: 600;
@@ -301,18 +304,18 @@ header[data-testid="stHeader"]:empty { display: none; }
 /* The column is the card. `.ff-chip` is a zero-height marker so `:has()` can target only
    the chip columns, and the question itself stays a real `st.button`. */
 .ff-chip { display: none; }
-[data-testid="stHorizontalBlock"]:has(.ff-chip) { gap: var(--ff-space-md) !important; }
+[data-testid="stHorizontalBlock"]:has(.ff-chip) { gap: 24px !important; }
 [data-testid="stColumn"]:has(.ff-chip) {
   position: relative;
   background: var(--ff-surface);
   border: 1px solid var(--ff-border);
   border-radius: var(--ff-panel);
   box-shadow: var(--ff-shadow-card);
-  padding: var(--ff-space-md);
+  padding: 22px 20px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 /* the 4px accent rule down the leading edge */
-[data-testid="stColumn"]:has(.ff-chip)::before {
+[data-testid="stColumn"]:has(.ff-chip):before {
   content: "";
   position: absolute;
   top: -1px; left: -1px; bottom: -1px;
@@ -325,10 +328,10 @@ header[data-testid="stHeader"]:empty { display: none; }
   border-color: var(--ff-border_strong);
   box-shadow: var(--ff-shadow-hover);
 }
-[data-testid="stColumn"]:has(.ff-chip):hover::before { background: var(--ff-primary); }
+[data-testid="stColumn"]:has(.ff-chip):hover:before { background: var(--ff-primary); }
 .ff-chip-head {
   display: flex; align-items: center; justify-content: space-between;
-  gap: var(--ff-space-sm); margin-bottom: var(--ff-space-sm); padding-left: var(--ff-space-xs);
+  gap: var(--ff-space-sm); margin-bottom: 14px; padding-left: var(--ff-space-xs);
 }
 .ff-chip-badge {
   display: inline-block; padding: 2px 8px; border-radius: var(--ff-badge);
@@ -363,7 +366,7 @@ header[data-testid="stHeader"]:empty { display: none; }
 }
 .ff-chip-foot {
   display: flex; align-items: center; justify-content: space-between;
-  gap: var(--ff-space-sm); margin-top: var(--ff-space-md); padding-top: var(--ff-space-xs);
+  gap: var(--ff-space-sm); margin-top: 22px; padding-top: var(--ff-space-xs);
   padding-left: var(--ff-space-xs);
   font-family: __FONT_MONO__; font-size: 12px; line-height: 18px; color: var(--ff-outline);
 }
@@ -439,7 +442,7 @@ header[data-testid="stHeader"]:empty { display: none; }
   padding: var(--ff-space-sm) 0;
   font-size: 16px; line-height: 26px; color: var(--ff-on_surface); overflow-wrap: anywhere;
 }
-.ff-answer p { margin: 0 0 10px 0; }
+.ff-answer p { margin: 0 0 16px 0; line-height: 1.65; }
 .ff-answer p:last-child { margin-bottom: 0; }
 .ff-answer a { color: var(--ff-primary); overflow-wrap: anywhere; }
 .ff-source-row {
