@@ -1,0 +1,14 @@
+# source_url: https://www.hdfcfund.com/services/consolidated-account-statement
+# doc_type: guide
+# fetched_at: 2026-09-28
+# title: Download Consolidated Account Statement | HDFC Mutual Fund
+
+Download Statement
+OR
+FAQs
+- An Account Statement (AS) is a consolidated document that provides a detailed summary of all mutual fund transactions carried out by an investor. It includes information such as purchases, redemptions, switches, dividends, and the units allotted in the folio.
+- You can download the AS as soon as you begin investing with us.
+An Account Statement is generated each time a transaction is processed and units are allotted in the investor’s folio.
+- No. There is no charge or fee for receiving or downloading your Account Statement.
+- You can download the following types of statements: PAN-based Account Statement: Consolidated view of all folios linked to the PAN.
+Folio-based Account Statement: Statement specific to a single folio.

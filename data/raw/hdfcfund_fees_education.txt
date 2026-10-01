@@ -1,0 +1,48 @@
+# source_url: https://www.hdfcfund.com/learn/blog/what-expense-ratio-mutual-funds
+# doc_type: educational
+# fetched_at: 2026-09-28
+# title: What Is Expense Ratio in Mutual Funds?
+
+What Is Expense Ratio in Mutual Funds?
+Last Updated On: 15 May 2026 | Created On: 3 Jul 2025
+5 min read
+Expense ratio is a crucial factor to consider when investing in mutual fund schemes. It represents the annual fee charged by a fund house for managing an investor’s money. The expense ratio is expressed as a percentage of the fund’s total assets under management (AUM) and directly impacts the investor’s returns.
+Understanding Expense Ratio
+The expense ratio includes but not limited to various operational costs such as:
+- Fund Management Fees: Payment to the fund manager and investment team.
+- Administrative Expenses: Costs related to office operations, record-keeping, and compliance.
+- Marketing & Distribution Costs: Fees for advertising, brokerage, and distribution of funds.
+- Other Expenses: Custodian fees, legal fees, and audit costs.
+How Is Expense Ratio Calculated?
+Expense Ratio = (Total Fund Expenses / Total Assets Under Management) × 100
+Impact of Expense Ratio on Returns
+A high expense ratio reduces net returns over time. For example:
+- If a mutual fund possibly generates 12% annual returns but has a 2% expense ratio, the actual return received by the investor will be 10%.
+- Over the long term, even a 0.5% difference in expense ratio can significantly impact returns due to compounding effects.
+(You are recommended to seek advice from financial advisor before you take any/refrain from any action)
+How to Check a Fund’s Expense Ratio?
+Investors can find the expense ratio of a mutual fund in:
+- The fund’s fact sheet
+- SEBI-mandated disclosures on the fund house’s website
+Factors to Consider Before Choosing a Fund Based on Expense Ratio
+- Investment Objective: A higher expense ratio in an actively managed fund may be justified if it consistently outperforms benchmarks.
+- Fund Performance: Compare historical returns net of expenses with peer funds.
+- Investment Horizon: For long-term investments, a lower expense ratio helps in compounding gains.
+- Fund Category: Actively managed funds tend to have higher expense ratios than passive funds.
+Expense ratio plays a vital role in determining net returns. While lower costs are beneficial, investors should also evaluate scheme performance, risk factors, and investment goals before making a decision.
+Additional links:
+FAQs
+Not necessarily. If an actively managed fund justifies a higher expense ratio with superior returns, it may be worth the cost. (You are recommended to seek advice from financial advisor before you take any/refrain from any action).
+
+Yes, direct plans have lower expense ratios than regular plans as they eliminate distributor commissions.
+
+Fund houses can revise expense ratios periodically based on fund performance and AUM, subject to limits as prescribed under SEBI regulations and guidelines issued thereunder from time to time.
+
+Generally, as AUM grows, the expense ratio tends to decrease due to economies of scale.
+
+Did you find this interesting?
+Your opinion matters - share your thoughts and help us improve.
+An Investor Education And Awareness Initiative
+Visit https://www.hdfcfund.com/information/key-know-how to know more about the process to complete a one-time Know Your Customer (KYC) requirement to invest in Mutual Funds. Investors should only deal with registered Mutual Funds, details of which can be verified on the SEBI website (www.sebi.gov.in/intermediaries.html). For any queries, complaints & grievance redressal, investors may reach out to the AMCs and / or Investor Relations Officers. Additionally, investors may also lodge complaints directly with the AMCs. If they are not satisfied with the resolutions given by AMCs, they may raise complaint through the SCORES portal on https://scores.sebi.gov.in/scores-home/. SCORES portal facilitates investors to lodge complaint online with SEBI and subsequently view its status. In case the investor is not satisfied with the resolution of the complaints raised directly with the AMCs or through the SCORES portal, they may file any complaint on the Smart ODR on https://smartodr.in/login.
+The information is for general purposes only and not an investment advice. Readers should seek professional advice before taking any investment related decisions.
+MUTUAL FUND INVESTMENTS ARE SUBJECT TO MARKET RISKS, READ ALL SCHEME RELATED DOCUMENTS CAREFULLY

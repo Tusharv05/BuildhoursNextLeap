@@ -1,0 +1,97 @@
+{
+  "strategy": "section",
+  "documents": 14,
+  "chunks": 149,
+  "avg_tokens": 196.4,
+  "median_tokens": 183,
+  "min_tokens": 35,
+  "max_tokens": 354,
+  "orphan_table_rows": 0,
+  "per_source": {
+    "amfi_hdfc_member": {
+      "chunks": 4,
+      "tokens": 826,
+      "doc_type": "guide",
+      "scheme": null
+    },
+    "hdfc_balanced_advantage_scheme_page": {
+      "chunks": 47,
+      "tokens": 12182,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+    },
+    "hdfc_elss_scheme_page": {
+      "chunks": 16,
+      "tokens": 2786,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC ELSS Tax Saver Fund - Direct Plan Growth"
+    },
+    "hdfc_flexi_cap_scheme_page": {
+      "chunks": 19,
+      "tokens": 3582,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+    },
+    "hdfc_large_cap_scheme_page": {
+      "chunks": 16,
+      "tokens": 2750,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Large Cap Fund - Direct Growth"
+    },
+    "hdfc_small_cap_scheme_page": {
+      "chunks": 20,
+      "tokens": 3625,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Small Cap Fund - Direct Growth"
+    },
+    "hdfcfund_balanced_advantage_official": {
+      "chunks": 3,
+      "tokens": 440,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+    },
+    "hdfcfund_consolidated_statement": {
+      "chunks": 2,
+      "tokens": 180,
+      "doc_type": "guide",
+      "scheme": null
+    },
+    "hdfcfund_elss_official": {
+      "chunks": 2,
+      "tokens": 320,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC ELSS Tax Saver Fund - Direct Plan Growth"
+    },
+    "hdfcfund_fees_education": {
+      "chunks": 8,
+      "tokens": 956,
+      "doc_type": "educational",
+      "scheme": null
+    },
+    "hdfcfund_flexi_cap_official": {
+      "chunks": 3,
+      "tokens": 391,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+    },
+    "hdfcfund_investor_faq": {
+      "chunks": 3,
+      "tokens": 455,
+      "doc_type": "faq",
+      "scheme": null
+    },
+    "hdfcfund_large_cap_official": {
+      "chunks": 3,
+      "tokens": 397,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Large Cap Fund - Direct Growth"
+    },
+    "hdfcfund_small_cap_official": {
+      "chunks": 3,
+      "tokens": 374,
+      "doc_type": "scheme_page",
+      "scheme": "HDFC Small Cap Fund - Direct Growth"
+    }
+  },
+  "total_source_chars": 79360
+}

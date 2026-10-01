@@ -1,0 +1,152 @@
+# source_url: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+# doc_type: scheme_page
+# fetched_at: 2026-09-28
+# title: HDFC ELSS Tax Saver Fund Direct Plan Growth - NAV, Mutual Fund Performance & Portfolio
+
+| Over the past | Total investment | Would've become | Historic returns | Returns |
+|---|---|---|---|---|
+| 1 year | ₹60,000 | ₹57,940 | | -3.43% |
+| 3 years | ₹1,80,000 | ₹1,87,909 | | +4.39% |
+| 5 years | ₹3,00,000 | ₹3,94,141 | | +31.38% |
+| 10 years | ₹6,00,000 | ₹12,27,728 | | +104.62% |
+| Name | Sector | Instruments | Assets |
+|---|---|---|---|
+| ICICI Bank Ltd | Financial | Equity | 9.32% |
+| HDFC Bank Ltd | Financial | Equity | 7.36% |
+| Axis Bank Ltd | Financial | Equity | 6.50% |
+| Maruti Suzuki India Ltd | Consumer Discretionary | Equity | 4.66% |
+| State Bank of India | Financial | Equity | 4.64% |
+| Kotak Mahindra Bank Ltd | Financial | Equity | 4.59% |
+| Bharti Airtel Ltd | Technology | Equity | 4.29% |
+| SBI Life Insurance Company Ltd | Financial | Equity | 3.25% |
+| HCL Technologies Ltd | Technology | Equity | 2.93% |
+| Hyundai Motor India Ltd. | Consumer Discretionary | Equity | 2.76% |
+| Reliance Industries Ltd | Energy & Utilities | Equity | 2.66% |
+| Zomato Ltd | Technology | Equity | 2.31% |
+| Bajaj Auto Ltd | Consumer Discretionary | Equity | 1.96% |
+| Tata Steel Ltd | Materials | Equity | 1.73% |
+| Britannia Industries Ltd | Consumer Staples | Equity | 1.72% |
+| Larsen & Toubro Ltd | Industrials | Equity | 1.60% |
+| Apollo Hospitals Enterprise Ltd | Healthcare | Equity | 1.53% |
+| JSW Steel Ltd | Materials | Equity | 1.51% |
+| Bosch Ltd | Consumer Discretionary | Equity | 1.41% |
+| Dr. Lal Pathlabs Ltd | Healthcare | Equity | 1.38% |
+| PB Fintech Ltd | Financial | Equity | 1.35% |
+| Interglobe Aviation Ltd | Industrials | Equity | 1.34% |
+| Karur Vysya Bank Ltd | Financial | Equity | 1.30% |
+| Jubilant FoodWorks Ltd | Consumer Discretionary | Equity | 1.23% |
+| Metropolis Healthcare Ltd | Healthcare | Equity | 1.17% |
+| Alkem Laboratories Ltd | Healthcare | Equity | 1.17% |
+| Infosys Ltd | Technology | Equity | 1.17% |
+| Hindustan Aeronautics Ltd | Industrials | Equity | 1.13% |
+| Cipla Ltd | Healthcare | Equity | 1.09% |
+| Star Health & Allied Insurance Co. Ltd | Financial | Equity | 1.07% |
+| Mphasis Ltd | Technology | Equity | 1.06% |
+| United Spirits Ltd | Consumer Staples | Equity | 1.06% |
+| Power Grid Corporation of India Ltd | Energy & Utilities | Equity | 1.03% |
+| Repo | Unspecified | Repo | 1.03% |
+| ICICI Lombard General Insurance Company Ltd | Financial | Equity | 1.02% |
+| Tech Mahindra Ltd | Technology | Equity | 1.02% |
+| Lupin Ltd | Healthcare | Equity | 0.96% |
+| ICICI Prudential Asset Management Company Ltd. | Financial | Equity | 0.96% |
+| Eicher Motors Ltd | Consumer Discretionary | Equity | 0.90% |
+| JSW Energy Ltd | Energy & Utilities | Equity | 0.87% |
+| Havells India Ltd | Consumer Discretionary | Equity | 0.83% |
+| Chalet Hotels Ltd | Consumer Discretionary | Equity | 0.81% |
+| Hindustan Unilever Ltd | Consumer Staples | Equity | 0.74% |
+| Godrej Consumer Products Ltd | Consumer Staples | Equity | 0.74% |
+| IIFL Wealth Management Ltd | Financial | Equity | 0.73% |
+| Mahindra & Mahindra Ltd | Consumer Discretionary | Equity | 0.72% |
+| Birla Corporation Ltd | Materials | Equity | 0.55% |
+| Westlife Development Ltd | Consumer Discretionary | Equity | 0.53% |
+| Life Insurance Corporation of India | Financial | Equity | 0.52% |
+| Bharat Electronics Ltd | Industrials | Equity | 0.47% |
+| The Ramco Cements Ltd | Materials | Equity | 0.44% |
+| Cyient Ltd | Technology | Equity | 0.44% |
+| Suven Pharmaceuticals Ltd | Healthcare | Equity | 0.41% |
+| TeamLease Services Ltd | Industrials | Equity | 0.33% |
+| GOVERNMENT OF INDIA 31719 GOI 20JU27 7.38 FV RS 100 | Entities | GOI Securities | 0.32% |
+| Popular Vehicles And Services Ltd. | Consumer Discretionary | Equity | 0.32% |
+| Anthem Biosciences Ltd. | Healthcare | Equity | 0.28% |
+| Rubicon Research Ltd. | Healthcare | Equity | 0.25% |
+| Tata Motors Ltd | Industrials | Equity | 0.18% |
+| Bajaj Electricals Ltd | Consumer Discretionary | Equity | 0.13% |
+| JK Lakshmi Cement Ltd | Materials | Equity | 0.13% |
+| SBI Funds Management Ltd | Financial | Equity | 0.06% |
+| Medi Assist Healthcare Services Ltd. | Industrials | Equity | 0.04% |
+| Escorts Kubota Ltd | Industrials | Equity | 0.03% |
+| Net Payables | Unspecified | Net Payables | -0.04% |
+| Name | 3Y | 5Y | 10Y | All |
+|---|---|---|---|---|
+| Fund returns | +12.5% | +13.4% | +12.8% | +13.8% |
+| Category average (Equity ELSS) | +11.4% | +10.4% | +13.2% | +17.1% |
+| Rank (Equity ELSS) | 13 | 5 | 17 | -- |
+
+## Fees and exit load
+- Expense ratio (annual %) (Direct plan): 1.21
+- Exit load (Direct plan): Nil
+- Lock-in period (Direct plan): 3 years
+- Stamp duty: 0.005% (from July 1st, 2020)
+## Minimum investment amounts
+- Minimum SIP amount (INR) (Direct plan): 500
+- Minimum lump-sum investment (INR) (Direct plan): 500
+- Minimum withdrawal amount (INR) (Direct plan): 500
+## Benchmark and riskometer
+- Benchmark (Direct plan): NIFTY 500 Total Return Index
+- Riskometer (Direct plan): Moderately High
+- Category (Direct plan): Equity
+- Fund type (Direct plan): Growth
+## Fund size and details
+- Fund size / AUM (INR crore) (Direct plan): 15,991.78
+- Fund house: HDFC Mutual Fund
+- Launch date: 01-Jan-2013
+- Portfolio turnover ratio (annual %): 32
+- Groww risk-reward rating (of 10): 5
+- Registrar: CAMS
+## Fund manager
+- Amar Kalkundrikar (in role since 2025-12-07)
+- Dhruv Muchhal (in role since 2023-06-21)
+## Historic changes to fees and exit load
+- Historic exit load changes:
+  effective 2013-01-01: cdsc=False, front_load=0, back_load=0
+- Historic expense ratio changes:
+  effective 2026-09-24: expense_ratio=1.21, base_expense_ratio=0.97
+  effective 2026-09-07: expense_ratio=1.2, base_expense_ratio=0.96
+  effective 2026-08-31: expense_ratio=1.19, base_expense_ratio=0.96
+  ... 97 further change(s) omitted
+## Sector allocation and exposure, from the fund's disclosed holdings (as of 2026-08-30)
+- Sector-wise weight in the portfolio:
+- Financial: 42.67%
+- Consumer Discretionary: 16.26%
+- Technology: 13.22%
+- Healthcare: 8.24%
+- Industrials: 5.12%
+- Energy & Utilities: 4.56%
+- Materials: 4.36%
+- Consumer Staples: 4.26%
+- Unspecified: 1.03%
+- Entities: 0.32%
+## Asset allocation across equity, debt and cash (from disclosed holdings (as of 2026-08-30))
+- Portfolio split by asset type:
+- Equity: 98.69%
+- Repo: 1.03%
+- GOI Securities: 0.32%
+## Market cap split and allocation across large cap, mid cap, and small cap (from disclosed portfolio (as of 2026-08-30))
+- Portfolio breakdown and split by market capitalization:
+- Large Cap: 65.20%
+- Mid Cap: 14.30%
+- Small Cap: 8.50%
+- Cash & Debt: 12.00%
+- Regulatory mandate: Under statutory tax-saver guidelines, minimum 80% in equity across market capitalizations with a 3-year lock-in period under Section 80C.
+## Top equity holdings (as of 2026-08-30)
+- ICICI Bank Ltd: 9.32%
+- HDFC Bank Ltd: 7.36%
+- Axis Bank Ltd: 6.50%
+- Maruti Suzuki India Ltd: 4.66%
+- State Bank of India: 4.64%
+- Kotak Mahindra Bank Ltd: 4.59%
+- Bharti Airtel Ltd: 4.29%
+- SBI Life Insurance Company Ltd: 3.25%
+- HCL Technologies Ltd: 2.93%
+- Hyundai Motor India Ltd.: 2.76%
+Source page: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth

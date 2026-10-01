@@ -1,0 +1,147 @@
+# source_url: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+# doc_type: scheme_page
+# fetched_at: 2026-09-28
+# title: HDFC Large Cap Fund Direct Growth - NAV, Mutual Fund Performance & Portfolio
+
+| Over the past | Total investment | Would've become | Historic returns | Returns |
+|---|---|---|---|---|
+| 1 year | ₹60,000 | ₹58,430 | | -2.62% |
+| 3 years | ₹1,80,000 | ₹1,83,700 | | +2.06% |
+| 5 years | ₹3,00,000 | ₹3,66,318 | | +22.11% |
+| 10 years | ₹6,00,000 | ₹11,12,569 | | +85.43% |
+| Name | Sector | Instruments | Assets |
+|---|---|---|---|
+| ICICI Bank Ltd | Financial | Equity | 10.05% |
+| HDFC Bank Ltd | Financial | Equity | 6.88% |
+| Bharti Airtel Ltd | Technology | Equity | 6.23% |
+| Kotak Mahindra Bank Ltd | Financial | Equity | 5.71% |
+| Titan Company Ltd | Consumer Discretionary | Equity | 5.27% |
+| Reliance Industries Ltd | Energy & Utilities | Equity | 4.78% |
+| Torrent Pharmaceuticals Ltd | Healthcare | Equity | 4.04% |
+| Axis Bank Ltd | Financial | Equity | 3.49% |
+| Bajaj Finserv Ltd | Financial | Equity | 3.33% |
+| Bajaj Auto Ltd | Consumer Discretionary | Equity | 2.93% |
+| Infosys Ltd | Technology | Equity | 2.76% |
+| Lupin Ltd | Healthcare | Equity | 2.53% |
+| Zomato Ltd | Technology | Equity | 2.49% |
+| Cholamandalam Investment & Finance Company Ltd | Financial | Equity | 2.44% |
+| Ambuja Cements Ltd | Materials | Equity | 2.24% |
+| Tata Motors Ltd | Industrials | Equity | 2.02% |
+| Larsen & Toubro Ltd | Industrials | Equity | 1.99% |
+| Interglobe Aviation Ltd | Industrials | Equity | 1.97% |
+| State Bank of India | Financial | Equity | 1.89% |
+| NTPC Ltd | Energy & Utilities | Equity | 1.83% |
+| United Spirits Ltd | Consumer Staples | Equity | 1.78% |
+| Max Healthcare Institute Ltd | Healthcare | Equity | 1.72% |
+| Mankind Pharma Ltd. | Healthcare | Equity | 1.66% |
+| Indusind Bank Ltd | Financial | Equity | 1.57% |
+| ICICI Prudential Asset Management Company Ltd. | Financial | Equity | 1.43% |
+| Vishal Mega Mart Ltd. | Consumer Staples | Equity | 1.37% |
+| Havells India Ltd | Consumer Discretionary | Equity | 1.35% |
+| Tata Consumer Products Ltd | Consumer Staples | Equity | 1.31% |
+| Swiggy Ltd. | Technology | Equity | 1.30% |
+| Hyundai Motor India Ltd. | Consumer Discretionary | Equity | 1.21% |
+| Repo | Unspecified | Repo | 1.04% |
+| Eicher Motors Ltd | Consumer Discretionary | Equity | 1.03% |
+| SRF Ltd | Materials | Equity | 0.89% |
+| Adani Ports and Special Economic Zone Ltd | Industrials | Equity | 0.87% |
+| TATA CAPITAL LIMITED EQ | Financial | Equity | 0.75% |
+| SBI Funds Management Ltd | Financial | Equity | 0.67% |
+| Dabur India Ltd | Consumer Staples | Equity | 0.66% |
+| Mahindra & Mahindra Ltd | Consumer Discretionary | Equity | 0.65% |
+| CG Power & Industrial Solutions Ltd | Industrials | Equity | 0.62% |
+| GOVERNMENT OF INDIA 36185 GOI 07JL40 6.68 FV RS 100 | Entities | GOI Securities | 0.48% |
+| Bharat Electronics Ltd | Industrials | Equity | 0.47% |
+| Life Insurance Corporation of India | Financial | Equity | 0.41% |
+| Tata Motors Ltd | Consumer Discretionary | Equity | 0.41% |
+| DLF Ltd | Real Estate | Equity | 0.37% |
+| Cummins India Ltd | Industrials | Equity | 0.29% |
+| Billionbrains Garage Ventures Ltd. | Financial | Equity | 0.28% |
+| Maruti Suzuki India Ltd | Consumer Discretionary | Equity | 0.24% |
+| Hindalco Industries Ltd | Materials | Equity | 0.23% |
+| SBI Life Insurance Company Ltd | Financial | Equity | 0.17% |
+| Net Payables | Unspecified | Net Payables | -0.10% |
+| Name | 3Y | 5Y | 10Y | All |
+|---|---|---|---|---|
+| Fund returns | +8.7% | +10.3% | +12.0% | +12.7% |
+| Category average (Equity Large Cap) | +10.3% | +8.7% | +11.9% | +12.7% |
+| Rank (Equity Large Cap) | 45 | 17 | 14 | -- |
+| | Name | 1Y | 3Y | Fund Size(Cr) |
+|---|---|---|---|---|
+| | Invesco India Large Cap Fund Direct Growth | +2.51% | +13.80% | 2,020.76 |
+| | Bandhan Large Cap Fund Direct Growth | +0.05% | +12.47% | 2,179.99 |
+| | Nippon India Large Cap Fund Direct Growth | -4.66% | +10.75% | 54,133.66 |
+| | ICICI Prudential Large Cap Fund Direct Growth | -5.15% | +10.43% | 80,206.20 |
+| | HDFC Large Cap Fund Direct Growth | -3.26% | +8.71% | 39,933.37 |
+| Compare | | | | |
+
+## Fees and exit load
+- Expense ratio (annual %) (Direct plan): 1.03
+- Exit load (Direct plan): Exit load of 1% if redeemed within 1 year
+- Stamp duty: 0.005% (from July 1st, 2020)
+## Minimum investment amounts
+- Minimum SIP amount (INR) (Direct plan): 100
+- Minimum lump-sum investment (INR) (Direct plan): 100
+- Minimum withdrawal amount (INR) (Direct plan): 100
+## Benchmark and riskometer
+- Benchmark (Direct plan): NIFTY 100 Total Return Index
+- Riskometer (Direct plan): Moderately High Riskometer
+- Category (Direct plan): Equity
+- Fund type (Direct plan): Growth
+## Fund size and details
+- Fund size / AUM (INR crore) (Direct plan): 39,933.37
+- Fund house: HDFC Mutual Fund
+- Launch date: 01-Jan-2013
+- Portfolio turnover ratio (annual %): 18
+- Groww risk-reward rating (of 10): 4
+- Registrar: CAMS
+## Fund manager
+- Rahul Baijal (in role since 2022-07-28)
+- Dhruv Muchhal (in role since 2023-06-21)
+## Historic changes to fees and exit load
+- Historic exit load changes:
+  effective 2015-05-08: cdsc=True, note=Exit load of 1% if redeemed within 1 year, front_load=0, back_load=0
+  effective 2015-02-16: cdsc=True, note=Exit load of 1% if redeemed within 18 months, front_load=0, back_load=0
+  effective 2013-01-01: cdsc=True, note=Exit load of 1% if redeemed within 1 year, front_load=0, back_load=0
+- Historic expense ratio changes:
+  effective 2026-09-24: expense_ratio=1.03, base_expense_ratio=0.84
+  effective 2026-08-31: expense_ratio=1.02, base_expense_ratio=0.83
+  effective 2026-08-19: expense_ratio=1.03, base_expense_ratio=0.84
+  ... 152 further change(s) omitted
+## Sector allocation and exposure, from the fund's disclosed holdings (as of 2026-08-30)
+- Sector-wise weight in the portfolio:
+- Financial: 39.07%
+- Consumer Discretionary: 13.09%
+- Technology: 12.78%
+- Healthcare: 9.95%
+- Industrials: 8.23%
+- Energy & Utilities: 6.61%
+- Consumer Staples: 5.12%
+- Materials: 3.36%
+- Unspecified: 1.04%
+- Entities: 0.48%
+- Real Estate: 0.37%
+## Asset allocation across equity, debt and cash (from disclosed holdings (as of 2026-08-30))
+- Portfolio split by asset type:
+- Equity: 98.58%
+- Repo: 1.04%
+- GOI Securities: 0.48%
+## Market cap split and allocation across large cap, mid cap, and small cap (from disclosed portfolio (as of 2026-08-30))
+- Portfolio breakdown and split by market capitalization:
+- Large Cap: 86.85%
+- Mid Cap: 7.15%
+- Small Cap: 1.20%
+- Cash, Debt & Current Assets: 4.80%
+- Regulatory mandate: Under SEBI mutual fund categorisation, large-cap funds must invest at least 80% of total assets in large-cap companies (companies ranked 1-100 by market capitalization).
+## Top equity holdings (as of 2026-08-30)
+- ICICI Bank Ltd: 10.05%
+- HDFC Bank Ltd: 6.88%
+- Bharti Airtel Ltd: 6.23%
+- Kotak Mahindra Bank Ltd: 5.71%
+- Titan Company Ltd: 5.27%
+- Reliance Industries Ltd: 4.78%
+- Torrent Pharmaceuticals Ltd: 4.04%
+- Axis Bank Ltd: 3.49%
+- Bajaj Finserv Ltd: 3.33%
+- Bajaj Auto Ltd: 2.93%
+Source page: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
