@@ -53,7 +53,7 @@ text-extractable.
 Windows, PowerShell, Python 3.11 (any OS works — the commands below are PowerShell):
 
 ```powershell
-git clone <repo-url> && cd Buildhours
+git clone https://github.com/Tusharv05/BuildhoursNextLeap.git && cd BuildhoursNextLeap
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
