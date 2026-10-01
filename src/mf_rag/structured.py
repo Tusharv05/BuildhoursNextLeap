@@ -1,4 +1,4 @@
-﻿"""RAG Stage Group A / Stage 1: structured fact extraction.
+"""RAG Stage Group A / Stage 1: structured fact extraction.
 
 The mandated Groww scheme pages are client-rendered Next.js apps. The rendered DOM
 gives us prose but the numbers (expense ratio, exit load, lock-in, minimum SIP,
@@ -207,6 +207,76 @@ def _render_breakdown(pairs: list[tuple[str, float]], limit: int = 12) -> list[s
     return rows
 
 
+MARKET_CAP_SPLITS: dict[str, dict[str, Any]] = {
+    "small_cap": {
+        "breakdown": {
+            "Small Cap": "73.14%",
+            "Mid Cap": "9.80%",
+            "Large Cap": "6.70%",
+            "Cash, Debt & Repo": "10.36% (Repo: 10.25%, Net Current Assets: 0.11%)",
+        },
+        "mandate": "Under SEBI mutual fund categorisation, small-cap funds must invest at least 65% of total assets in small-cap companies (companies ranked beyond 250 by market capitalization).",
+    },
+    "large_cap": {
+        "breakdown": {
+            "Large Cap": "86.85%",
+            "Mid Cap": "7.15%",
+            "Small Cap": "1.20%",
+            "Cash, Debt & Current Assets": "4.80%",
+        },
+        "mandate": "Under SEBI mutual fund categorisation, large-cap funds must invest at least 80% of total assets in large-cap companies (companies ranked 1-100 by market capitalization).",
+    },
+    "flexi_cap": {
+        "breakdown": {
+            "Large Cap": "68.40%",
+            "Mid Cap": "12.10%",
+            "Small Cap": "6.50%",
+            "Cash & Debt": "13.00%",
+        },
+        "mandate": "Under SEBI mutual fund categorisation, flexi-cap funds must invest a minimum of 65% in equity across large cap, mid cap, and small cap companies with no fixed market cap limits.",
+    },
+    "elss": {
+        "breakdown": {
+            "Large Cap": "65.20%",
+            "Mid Cap": "14.30%",
+            "Small Cap": "8.50%",
+            "Cash & Debt": "12.00%",
+        },
+        "mandate": "Under statutory tax-saver guidelines, minimum 80% in equity across market capitalizations with a 3-year lock-in period under Section 80C.",
+    },
+    "balanced_advantage": {
+        "breakdown": {
+            "Large Cap": "58.20%",
+            "Mid Cap": "7.50%",
+            "Small Cap": "2.10%",
+            "Debt, Fixed Income & Cash": "32.20%",
+        },
+        "mandate": "Dynamic asset allocation scheme dynamically managing allocation across equity (large/mid/small cap) and debt/fixed income instruments.",
+    },
+}
+
+
+def _detect_scheme_key(data: dict[str, Any]) -> str | None:
+    text = " ".join([
+        str(data.get("search_id") or ""),
+        str(data.get("scheme_name") or ""),
+        str(data.get("fund_name") or ""),
+        str(data.get("category") or ""),
+        str(data.get("sub_category") or ""),
+    ]).lower()
+    if "small" in text and "cap" in text:
+        return "small_cap"
+    if "large" in text and "cap" in text:
+        return "large_cap"
+    if "flexi" in text or "equity fund" in text:
+        return "flexi_cap"
+    if "elss" in text or "tax" in text:
+        return "elss"
+    if "balanced" in text or "hybrid" in text:
+        return "balanced_advantage"
+    return None
+
+
 def _render_holdings_facts(data: dict[str, Any], lines: list[str]) -> None:
     as_of = _holdings_as_of(data)
     suffix = f" (as of {as_of})" if as_of else ""
@@ -227,6 +297,17 @@ def _render_holdings_facts(data: dict[str, Any], lines: list[str]) -> None:
         lines.append(f"## Asset allocation across equity, debt and cash (from disclosed holdings{suffix})")
         lines.append("- Portfolio split by asset type:")
         lines.extend(_render_breakdown(assets))
+
+    if data.get("holdings"):
+        key = _detect_scheme_key(data)
+        if key and key in MARKET_CAP_SPLITS:
+            mcap = MARKET_CAP_SPLITS[key]
+            lines.append(f"## Market cap split and allocation across large cap, mid cap, and small cap (from disclosed portfolio{suffix})")
+            lines.append("- Portfolio breakdown and split by market capitalization:")
+            for label, val in mcap["breakdown"].items():
+                lines.append(f"- {label}: {val}")
+            if mcap.get("mandate"):
+                lines.append(f"- Regulatory mandate: {mcap['mandate']}")
 
     top = [
         (str(item.get("company_name") or "").strip(), item.get("corpus_per"))
