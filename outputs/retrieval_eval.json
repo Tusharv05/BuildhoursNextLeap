@@ -1,0 +1,427 @@
+{
+  "mode": "retrieval",
+  "generated_at": "2026-10-01T09:29:56",
+  "top_k": 5,
+  "min_score": 0.25,
+  "entity_filter": true,
+  "total": 19,
+  "passed": 19,
+  "hit_rate": 1.0,
+  "hit@1": 1.0,
+  "mrr": 1.0,
+  "max_latency_ms": 18526.5,
+  "questions": [
+    {
+      "id": "q01_expense_ratio_large_cap",
+      "question": "What is the expense ratio of HDFC Large Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.832822,
+      "where_filter": {
+        "scheme": "HDFC Large Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 18526.5,
+      "expected_keywords": [
+        "Expense ratio",
+        "1.03"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_large_cap_scheme_page",
+        "score": 0.8328,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q02_exit_load_elss",
+      "question": "What is the exit load on HDFC ELSS Tax Saver Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.888546,
+      "where_filter": {
+        "scheme": "HDFC ELSS Tax Saver Fund - Direct Plan Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 45.5,
+      "expected_keywords": [
+        "Exit load",
+        "Nil"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_elss_scheme_page",
+        "score": 0.8885,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q03_elss_lock_in",
+      "question": "What is the lock-in period for HDFC ELSS Tax Saver Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.777078,
+      "where_filter": {
+        "scheme": "HDFC ELSS Tax Saver Fund - Direct Plan Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.6,
+      "expected_keywords": [
+        "Lock-in period",
+        "3 years"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_elss_scheme_page",
+        "score": 0.7771,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q04_min_sip_small_cap",
+      "question": "What is the minimum SIP amount for HDFC Small Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.831868,
+      "where_filter": {
+        "scheme": "HDFC Small Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 48.3,
+      "expected_keywords": [
+        "Minimum SIP",
+        "100"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_small_cap_scheme_page",
+        "score": 0.8319,
+        "section_heading": "Minimum investment amounts"
+      }
+    },
+    {
+      "id": "q05_riskometer_flexi_cap",
+      "question": "What is the riskometer level of HDFC Flexi Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.777491,
+      "where_filter": {
+        "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 46.4,
+      "expected_keywords": [
+        "Riskometer",
+        "Moderately High"
+      ],
+      "top_chunk": {
+        "source_id": "hdfcfund_flexi_cap_official",
+        "score": 0.7775,
+        "section_heading": ""
+      }
+    },
+    {
+      "id": "q06_benchmark_balanced_advantage",
+      "question": "What is the benchmark of HDFC Balanced Advantage Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.860106,
+      "where_filter": {
+        "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 46.6,
+      "expected_keywords": [
+        "Benchmark",
+        "NIFTY 50 Hybrid Composite Debt 50:50 Index"
+      ],
+      "top_chunk": {
+        "source_id": "hdfcfund_balanced_advantage_official",
+        "score": 0.8601,
+        "section_heading": ""
+      }
+    },
+    {
+      "id": "q07_benchmark_small_cap",
+      "question": "Which index is the benchmark for HDFC Small Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.832639,
+      "where_filter": {
+        "scheme": "HDFC Small Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 46.0,
+      "expected_keywords": [
+        "BSE 250 SmallCap Total Return Index"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_small_cap_scheme_page",
+        "score": 0.8326,
+        "section_heading": "Benchmark and riskometer"
+      }
+    },
+    {
+      "id": "q08_min_sip_elss",
+      "question": "What is the minimum SIP for the HDFC ELSS tax saver fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.826449,
+      "where_filter": {
+        "scheme": "HDFC ELSS Tax Saver Fund - Direct Plan Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.1,
+      "expected_keywords": [
+        "Minimum SIP",
+        "500"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_elss_scheme_page",
+        "score": 0.8264,
+        "section_heading": "Minimum investment amounts"
+      }
+    },
+    {
+      "id": "q09_account_statement_download",
+      "question": "How do I download my account statement?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.523919,
+      "where_filter": null,
+      "fallback_unfiltered": false,
+      "latency_ms": 44.4,
+      "expected_keywords": [
+        "Account Statement",
+        "download"
+      ],
+      "top_chunk": {
+        "source_id": "hdfcfund_consolidated_statement",
+        "score": 0.5239,
+        "section_heading": ""
+      }
+    },
+    {
+      "id": "q10_expense_ratio_flexi_cap",
+      "question": "How much is the expense ratio of HDFC Equity Flexi Cap fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.838965,
+      "where_filter": {
+        "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 42.9,
+      "expected_keywords": [
+        "Expense ratio",
+        "0.77"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_flexi_cap_scheme_page",
+        "score": 0.839,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q11_exit_load_balanced_advantage",
+      "question": "Is there an exit load on HDFC Balanced Advantage Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.896243,
+      "where_filter": {
+        "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 45.6,
+      "expected_keywords": [
+        "Exit load",
+        "15%"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_balanced_advantage_scheme_page",
+        "score": 0.8962,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q12_consolidated_statement",
+      "question": "Is there a charge for downloading my consolidated account statement?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.59615,
+      "where_filter": null,
+      "fallback_unfiltered": false,
+      "latency_ms": 61.6,
+      "expected_keywords": [
+        "no charge or fee"
+      ],
+      "top_chunk": {
+        "source_id": "hdfcfund_consolidated_statement",
+        "score": 0.5961,
+        "section_heading": ""
+      }
+    },
+    {
+      "id": "q13_fund_size_flexi_cap",
+      "question": "What is the fund size of HDFC Flexi Cap Direct Plan Growth?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.859627,
+      "where_filter": {
+        "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.7,
+      "expected_keywords": [
+        "113,606.47"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_flexi_cap_scheme_page",
+        "score": 0.8596,
+        "section_heading": "Fund size and details"
+      }
+    },
+    {
+      "id": "q14_fund_manager_large_cap",
+      "question": "Who is the fund manager of HDFC Large Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.851682,
+      "where_filter": {
+        "scheme": "HDFC Large Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.0,
+      "expected_keywords": [
+        "Rahul Baijal",
+        "Dhruv Muchhal"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_large_cap_scheme_page",
+        "score": 0.8517,
+        "section_heading": "Fund manager"
+      }
+    },
+    {
+      "id": "q15_sector_allocation_large_cap",
+      "question": "What is the sector allocation of HDFC Large Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.93848,
+      "where_filter": {
+        "scheme": "HDFC Large Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 42.7,
+      "expected_keywords": [
+        "Sector allocation",
+        "Financial",
+        "39.07"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_large_cap_scheme_page",
+        "score": 0.9385,
+        "section_heading": "Sector allocation and exposure, from the fund's disclosed holdings (as of 2026-08-30)"
+      }
+    },
+    {
+      "id": "q16_asset_allocation_balanced_advantage",
+      "question": "What is the equity debt cash allocation of HDFC Balanced Advantage Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.823143,
+      "where_filter": {
+        "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 45.6,
+      "expected_keywords": [
+        "Asset allocation",
+        "equity",
+        "cash"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_balanced_advantage_scheme_page",
+        "score": 0.8231,
+        "section_heading": "Asset allocation across equity, debt and cash (from disclosed holdings (as of 2026-08-30))"
+      }
+    },
+    {
+      "id": "q17_top_holding_small_cap",
+      "question": "What is the top holding of HDFC Small Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.82617,
+      "where_filter": {
+        "scheme": "HDFC Small Cap Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 42.8,
+      "expected_keywords": [
+        "Top equity holdings"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_small_cap_scheme_page",
+        "score": 0.8262,
+        "section_heading": "Top equity holdings (as of 2026-08-30)"
+      }
+    },
+    {
+      "id": "q18_turnover_ratio_flexi_cap",
+      "question": "What is the portfolio turnover ratio of HDFC Flexi Cap Fund?",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.814948,
+      "where_filter": {
+        "scheme": "HDFC Equity (Flexi Cap) Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.3,
+      "expected_keywords": [
+        "Portfolio turnover ratio"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_flexi_cap_scheme_page",
+        "score": 0.8149,
+        "section_heading": "Fees and exit load"
+      }
+    },
+    {
+      "id": "q19_asset_allocation_split_wording",
+      "question": "equity debt cash split in HDFC Balanced Advantage Fund",
+      "pass": true,
+      "rank": 1,
+      "hits_returned": 4,
+      "top_score": 0.744663,
+      "where_filter": {
+        "scheme": "HDFC Balanced Advantage Fund - Direct Growth"
+      },
+      "fallback_unfiltered": false,
+      "latency_ms": 43.9,
+      "expected_keywords": [
+        "Asset allocation",
+        "equity",
+        "cash"
+      ],
+      "top_chunk": {
+        "source_id": "hdfc_balanced_advantage_scheme_page",
+        "score": 0.7447,
+        "section_heading": "Asset allocation across equity, debt and cash (from disclosed holdings (as of 2026-08-30))"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# Single source of truth for all tunables. Structure mirrors src/mf_rag/config.py.
+# Unknown or missing keys raise on load, so typos fail fast.
+
+ingest:
+  user_agent: "mf-faq-assistant/1.0 (class demo; contact: team)"
+  request_delay_sec: 1.5
+  max_retries: 3
+  timeout_sec: 20
+  fail_fast: false            # NFR-9 warn-and-skip
+
+chunking:
+  # Chosen by measurement, not assumption (ARCHITECTURE 5.2 / IMPLEMENTATION Phase 2).
+  # `python scripts/run_chunk_eval.py --rank embed` (real MiniLM cosine, as Stage 5 uses)
+  # over the real corpus (14 documents, 727 table rows, 4 Q/A pairs, 12 gold questions):
+  #   section       MRR 0.833  hit@1 0.75  hit@5 1.00  0 broken rows  0 split Q/A  -> WINNER
+  #   parent_child  MRR 0.787  hit@1 0.67  hit@5 1.00  0 broken rows  0 split Q/A
+  #   fixed         MRR 0.806  hit@1 0.67  hit@5 1.00  4 broken rows  0 split Q/A  (gate FAIL)
+  # `section` is the only candidate that meets all four PRD 6.3 criteria: no orphaned
+  # numbers, 100% of gold questions answerable, 685 avg chars (inside the 300-800 band),
+  # and every chunk traceable to one source URL.
+  #
+  # NOTE: a lexical (IDF) ranking proxy ranked parent_child first (MRR 0.604 vs 0.531).
+  # That was wrong - the proxy has no synonym matching. Under real embeddings section
+  # wins. This is the D7 lesson: measure with the retriever you will actually ship.
+  strategy: section             # fixed | section | parent_child
+  target_chars: 600
+  max_chars: 900
+  min_chars: 200
+  overlap_chars: 80
+  keep_tables_atomic: true
+  add_context_header: true
+
+embedding:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 64
+  normalize: true
+  cache: true
+
+retrieval:
+  top_k: 5
+  context_chunks: 4
+  # OQ-5, settled by measurement in Phase 5 (`python eval/run_eval.py --mode retrieval`).
+  # Absolute MiniLM cosines are low, so the floor has to be set from the corpus, not by
+  # intuition. 22 answer-bearing chunks across the 12 gold questions span 0.4839-0.8201
+  # (median 0.7035); the highest *non*-answer chunk in those runs is 0.3206. Terse real
+  # questions sit lower even when they route to the right source - "What is the ELSS
+  # lock-in period?" (the UI's own example, ARCHITECTURE 6.5) scores 0.3025, and its
+  # *official* hdfcfund.com alternative only 0.2471.
+  # Sweeping the floor over the gold set plus 8 terse phrasings:
+  #     0.20  gold 12/12  terse 7/8  official-citation available 12/12 gold, 7/8 terse
+  #     0.25  gold 12/12  terse 6/8  official-citation available 12/12 gold, 6/8 terse
+  #     0.30  gold 12/12  terse 6/8  official-citation available 12/12 gold, 5/8 terse
+  #     0.35  gold 12/12  terse 4/8  official-citation available 12/12 gold, 4/8 terse
+  # 0.25 dominates 0.30 (same gold recall, one more terse question keeps an official source
+  # in context so the citation can be official) while still rejecting the degenerate inputs
+  # that should honestly return NOT_IN_SOURCES: "what is 80C" 0.1776 and "lock-in?" 0.2213.
+  min_score: 0.25
+  distance: cosine
+  filter_by_entity: true
+  fallback_unfiltered: true
+
+generation:
+  provider: openai_compatible # openai_compatible | echo
+  model: "gpt-4o-mini"
+  temperature: 0.0
+  max_tokens: 220
+  max_sentences: 3
+  repair_attempts: 1
+
+guardrails:
+  pii_block: true
+  log_pii: false             # never
+  intent_rules_only: false

@@ -1,0 +1,361 @@
+{
+  "questions": 19,
+  "rank_mode": "lexical",
+  "winner": "section",
+  "decision_rule": "gates (0 broken table rows, 0 split Q/A pairs) then MRR, hit@1, hit@5",
+  "corpus": {
+    "documents": 14,
+    "table_rows": 727,
+    "qa_pairs": 4,
+    "note": "0 qa_pairs means the Q/A gate could not be measured on this corpus"
+  },
+  "results": [
+    {
+      "strategy": "section",
+      "chunks": 144,
+      "avg_tokens": 197.5,
+      "avg_chars": 559,
+      "broken_table_rows": 0,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": false,
+      "hit_at_1": 0.316,
+      "hit_at_5": 1.0,
+      "mrr": 0.565,
+      "unanswered": [],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 3
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 2
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 4
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 5
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 2
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 2
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 2
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q13_fund_size_flexi_cap",
+          "intent": "fund_size",
+          "rank": 4
+        },
+        {
+          "id": "q14_fund_manager_large_cap",
+          "intent": "fund_manager",
+          "rank": 4
+        },
+        {
+          "id": "q15_sector_allocation_large_cap",
+          "intent": "sector_allocation",
+          "rank": 5
+        },
+        {
+          "id": "q16_asset_allocation_balanced_advantage",
+          "intent": "asset_allocation",
+          "rank": 2
+        },
+        {
+          "id": "q17_top_holding_small_cap",
+          "intent": "top_holding",
+          "rank": 4
+        },
+        {
+          "id": "q18_turnover_ratio_flexi_cap",
+          "intent": "turnover_ratio",
+          "rank": 2
+        },
+        {
+          "id": "q19_asset_allocation_split_wording",
+          "intent": "asset_allocation",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "strategy": "parent_child",
+      "chunks": 454,
+      "avg_tokens": 82.6,
+      "avg_chars": 209,
+      "broken_table_rows": 0,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": true,
+      "hit_at_1": 0.368,
+      "hit_at_5": 0.789,
+      "mrr": 0.496,
+      "unanswered": [
+        "q05_riskometer_flexi_cap",
+        "q06_benchmark_balanced_advantage",
+        "q14_fund_manager_large_cap",
+        "q15_sector_allocation_large_cap"
+      ],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 3
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 2
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 5
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 0
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 0
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 3
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 3
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 3
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q13_fund_size_flexi_cap",
+          "intent": "fund_size",
+          "rank": 5
+        },
+        {
+          "id": "q14_fund_manager_large_cap",
+          "intent": "fund_manager",
+          "rank": 0
+        },
+        {
+          "id": "q15_sector_allocation_large_cap",
+          "intent": "sector_allocation",
+          "rank": 0
+        },
+        {
+          "id": "q16_asset_allocation_balanced_advantage",
+          "intent": "asset_allocation",
+          "rank": 1
+        },
+        {
+          "id": "q17_top_holding_small_cap",
+          "intent": "top_holding",
+          "rank": 1
+        },
+        {
+          "id": "q18_turnover_ratio_flexi_cap",
+          "intent": "turnover_ratio",
+          "rank": 5
+        },
+        {
+          "id": "q19_asset_allocation_split_wording",
+          "intent": "asset_allocation",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "strategy": "fixed",
+      "chunks": 154,
+      "avg_tokens": 198.9,
+      "avg_chars": 573,
+      "broken_table_rows": 4,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": false,
+      "hit_at_1": 0.211,
+      "hit_at_5": 0.737,
+      "mrr": 0.398,
+      "unanswered": [
+        "q06_benchmark_balanced_advantage",
+        "q07_benchmark_small_cap",
+        "q14_fund_manager_large_cap",
+        "q15_sector_allocation_large_cap",
+        "q17_top_holding_small_cap"
+      ],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 2
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 4
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 2
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 0
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 0
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 4
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 2
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 2
+        },
+        {
+          "id": "q13_fund_size_flexi_cap",
+          "intent": "fund_size",
+          "rank": 3
+        },
+        {
+          "id": "q14_fund_manager_large_cap",
+          "intent": "fund_manager",
+          "rank": 0
+        },
+        {
+          "id": "q15_sector_allocation_large_cap",
+          "intent": "sector_allocation",
+          "rank": 0
+        },
+        {
+          "id": "q16_asset_allocation_balanced_advantage",
+          "intent": "asset_allocation",
+          "rank": 5
+        },
+        {
+          "id": "q17_top_holding_small_cap",
+          "intent": "top_holding",
+          "rank": 0
+        },
+        {
+          "id": "q18_turnover_ratio_flexi_cap",
+          "intent": "turnover_ratio",
+          "rank": 5
+        },
+        {
+          "id": "q19_asset_allocation_split_wording",
+          "intent": "asset_allocation",
+          "rank": 3
+        }
+      ]
+    }
+  ]
+}

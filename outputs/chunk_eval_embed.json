@@ -1,0 +1,245 @@
+{
+  "questions": 12,
+  "rank_mode": "embed",
+  "winner": "section",
+  "decision_rule": "gates (0 broken table rows, 0 split Q/A pairs) then MRR, hit@1, hit@5",
+  "corpus": {
+    "documents": 14,
+    "table_rows": 727,
+    "qa_pairs": 4,
+    "note": "0 qa_pairs means the Q/A gate could not be measured on this corpus"
+  },
+  "results": [
+    {
+      "strategy": "section",
+      "chunks": 103,
+      "avg_tokens": 233.5,
+      "avg_chars": 685,
+      "broken_table_rows": 0,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": false,
+      "hit_at_1": 0.75,
+      "hit_at_5": 1.0,
+      "mrr": 0.833,
+      "unanswered": [],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 1
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 4
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 4
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 2
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "strategy": "fixed",
+      "chunks": 142,
+      "avg_tokens": 196.7,
+      "avg_chars": 570,
+      "broken_table_rows": 4,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": false,
+      "hit_at_1": 0.667,
+      "hit_at_5": 1.0,
+      "mrr": 0.806,
+      "unanswered": [],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 2
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 1
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 3
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 3
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 2
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "strategy": "parent_child",
+      "chunks": 274,
+      "avg_tokens": 96.1,
+      "avg_chars": 257,
+      "broken_table_rows": 0,
+      "table_rows": 727,
+      "split_qa_pairs": 0,
+      "qa_pairs": 4,
+      "expands_to_parent": true,
+      "hit_at_1": 0.667,
+      "hit_at_5": 1.0,
+      "mrr": 0.787,
+      "unanswered": [],
+      "per_question": [
+        {
+          "id": "q01_expense_ratio_large_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q02_exit_load_elss",
+          "intent": "exit_load",
+          "rank": 2
+        },
+        {
+          "id": "q03_elss_lock_in",
+          "intent": "lock_in",
+          "rank": 1
+        },
+        {
+          "id": "q04_min_sip_small_cap",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q05_riskometer_flexi_cap",
+          "intent": "riskometer",
+          "rank": 2
+        },
+        {
+          "id": "q06_benchmark_balanced_advantage",
+          "intent": "benchmark",
+          "rank": 5
+        },
+        {
+          "id": "q07_benchmark_small_cap",
+          "intent": "benchmark",
+          "rank": 4
+        },
+        {
+          "id": "q08_min_sip_elss",
+          "intent": "min_sip",
+          "rank": 1
+        },
+        {
+          "id": "q09_account_statement_download",
+          "intent": "statement_download",
+          "rank": 1
+        },
+        {
+          "id": "q10_expense_ratio_flexi_cap",
+          "intent": "expense_ratio",
+          "rank": 1
+        },
+        {
+          "id": "q11_exit_load_balanced_advantage",
+          "intent": "exit_load",
+          "rank": 1
+        },
+        {
+          "id": "q12_consolidated_statement",
+          "intent": "statement_download",
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}
